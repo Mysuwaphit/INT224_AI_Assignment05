@@ -2,7 +2,6 @@ import pickle
 import pandas as pd
 import streamlit as st
 from sklearn.preprocessing import StandardScaler
-from sklearn.datasets import load_iris
 
 # Load model and encoders
 with open('svm_employee.pkl', 'rb') as file:
